@@ -1,6 +1,5 @@
 package setup;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
@@ -10,7 +9,6 @@ import java.net.URL;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 
-import common.FileOperations;
 import global.Settings;
 
 /**
@@ -44,15 +42,15 @@ public class SettingsFileGeneration {
 	 */
 	public SettingsFileGeneration() {
 		try {
-			url = new URL("http://141.22.32.186/openz-hipergate-synchronization/");
+			url = new URL("http://141.22.32.186/openz-hipergate-synchronization");
 
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		urlImportExtension = "service/businessPartner/import/start";
+		urlImportExtension = "/service/businessPartner/import/start";
 		updateInterval = 15;
-		validationAdress = "service/";
+		validationAdress = "/service/programIdentifier";
 		validationString = "openz-hipergate-synchronization";
 		
 	}

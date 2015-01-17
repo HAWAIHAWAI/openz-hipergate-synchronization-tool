@@ -1,7 +1,9 @@
 <settings>
-  <url>http://localhost:380/openz-hipergate-synchronization</url>
-  <urlImportExtension>/service/businessPartner/import/start</urlImportExtension>
-  <validationAdress>/service/programIdentifier</validationAdress>
-  <validationString>openz-hipergate-synchronization</validationString>
-  <updateInterval>15</updateInterval>
+	<!-- Program settings -->
+	<url>http://localhost:380/openz-hipergate-synchronization</url>
+	<urlImportExtension>/service/businessPartner/import/start
+	</urlImportExtension>
+	<validationAdress>/service/programIdentifier</validationAdress>
+	<validationString>openz-hipergate-synchronization</validationString>
+	<updateInterval>15</updateInterval>
 </settings>

@@ -34,9 +34,6 @@ public class Settings {
 	 */
 	private Integer updateInterval;
 
-
-
-
 	/**
 	 * Retrieves the url where the openz-export web site is located.
 	 * 
@@ -47,7 +44,7 @@ public class Settings {
 	}
 
 	/**
-	 * Sets the url were the openz-export web service is located.
+	 * Sets the url where the openz-export web service is located.
 	 * 
 	 * @param newUrl
 	 *            A url in the form "http://www.example.com/resourceIdentifier"
@@ -75,30 +72,58 @@ public class Settings {
 		updateInterval = newUpdateInterval;
 	}
 
+	/**
+	 * Setter for URL Import Extension.
+	 * @param urlImportExtension The new URL Import Extension.
+	 */
 	public void setURLImportExtension(String urlImportExtension) {
 		this.setUrlImportExtension(urlImportExtension);		
 	}
 
+	/**
+	 * Getter for URL Import Extension.
+	 * @return
+	 */
 	public String getUrlImportExtension() {
 		return urlImportExtension;
 	}
 
+	/**
+	 * Setter for URL Import Extension.
+	 * @param urlImportExtension The new URL Import Extension.
+	 */
 	public void setUrlImportExtension(String urlImportExtension) {
 		this.urlImportExtension = urlImportExtension;
 	}
 
+	/**
+	 * Getter for Validation Adress.
+	 * @return Validation Adress as String.
+	 */
 	public String getValidationAdress() {
 		return validationAdress;
 	}
 
+	/**
+	 * Setter for Validation Adress.
+	 * @param validationAdress The new Validation Adress.
+	 */
 	public void setValidationAdress(String validationAdress) {
 		this.validationAdress = validationAdress;
 	}
 
+	/**
+	 * Getter for Validation String.
+	 * @return ValidationString.
+	 */
 	public String getValidationString() {
 		return validationString;
 	}
 
+	/**
+	 * Setter for Validation String.
+	 * @param validationString The new Validation String.
+	 */
 	public void setValidationString(String validationString) {
 		this.validationString = validationString;
 	}

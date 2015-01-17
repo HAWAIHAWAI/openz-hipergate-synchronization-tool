@@ -33,8 +33,14 @@ public class SettingsFileGeneration {
 	 */
 	private Integer updateInterval;
 
+	/**
+	 * Validation String for the program.
+	 */
 	private String validationString;
 
+	/**
+	 * Validation Adress for the program.
+	 */
 	private String validationAdress;
 
 	/**

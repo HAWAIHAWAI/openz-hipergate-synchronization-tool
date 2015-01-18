@@ -10,8 +10,7 @@ import java.net.URL;
 import java.util.TimerTask;
 
 /**
- * Class for "downloading" Bills from OpenZ and putting them as files in a
- * folder.
+ * Class for retrieving BusinessPartner(s) from the Message-Queue.
  * 
  * @author cglaeser.
  */
@@ -19,22 +18,22 @@ public class BusinessPartnerUpdater extends TimerTask {
 
 
 	/**
-	 * Settings of the BillDownloader.
+	 * Settings of BusinessPartnerUpdater.
 	 */
 	private Settings settings;
 
 	/**
-	 * Constructor for BillDownloader.
+	 * Constructor for BusinessPartnerUpdater.
 	 * 
 	 * @param settings
-	 *            Settings for the BillDownloader.
+	 *            Settings for BusinessPartnerUpdater.
 	 */
 	public BusinessPartnerUpdater(Settings settings) {
 		this.settings = settings;
 	}
 
 	/**
-	 * Refreshes the files in the bill folder.
+	 * Action to refresh the BusinessPartner(s) in the database.
 	 */
 	@Override
 	public void run() {
@@ -46,7 +45,7 @@ public class BusinessPartnerUpdater extends TimerTask {
 	}
 
 	/**
-	 * Gets Bills and unpacks them to folder specified by settings.
+	 * Refreshes the BusinessPartner(s) in the database.
 	 * 
 	 * @throws IOException Error occurred during execution...
 	 */

@@ -33,10 +33,10 @@ public class SettingsValidator {
 	}
 
 	/**
-	 * Checks if the openz-export-location is correctly set.
+	 * Checks if the openz-hipergate-synchronization web service location is correctly set.
 	 * 
 	 * @param settings
-	 *            Settings with the openz-export-location.
+	 *            Settings with the openz-hipergate-synchronization web service location.
 	 * @return True, if correctly set. Else false.
 	 */
 	public static boolean validateURLLocation(Settings settings) {

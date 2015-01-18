@@ -35,7 +35,7 @@ public class Settings {
 	private Integer updateInterval;
 
 	/**
-	 * Retrieves the url where the openz-export web site is located.
+	 * Retrieves the url where the openz-hipergate-synchronization web service is located.
 	 * 
 	 * @return A url in the form "http://www.example.com/resourceIdentifier"
 	 */
@@ -44,7 +44,7 @@ public class Settings {
 	}
 
 	/**
-	 * Sets the url where the openz-export web service is located.
+	 * Sets the url where the openz-hipergate-synchronization web service is located.
 	 * 
 	 * @param newUrl
 	 *            A url in the form "http://www.example.com/resourceIdentifier"

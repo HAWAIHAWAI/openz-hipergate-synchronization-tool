@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.Timer;
 
 /**
- * This class provides the update service for the openz-csv-import-export.
+ * This class provides the update service for the openz-hipergate-synchronization web service.
  * 
  * @author cglaeser
  *
@@ -30,7 +30,7 @@ public class UpdateService {
 	private Settings settings;
 
 	/**
-	 * Required for UpdateService to update the files in the specified folder.
+	 * Required for UpdateService to update BusinessPartner(s).
 	 * 
 	 * @see {@link Settings} for settings of the program.
 	 */

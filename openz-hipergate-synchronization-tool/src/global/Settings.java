@@ -81,8 +81,8 @@ public class Settings {
 	}
 
 	/**
-	 * Getter for URL Import Extension.
-	 * @return
+	 * Getter for URL Import Extension..
+	 * @return Returns the extension for the url-import.
 	 */
 	public String getUrlImportExtension() {
 		return urlImportExtension;

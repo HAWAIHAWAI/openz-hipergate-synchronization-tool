@@ -48,7 +48,7 @@ public class BusinessPartnerUpdater extends TimerTask {
 	/**
 	 * Gets Bills and unpacks them to folder specified by settings.
 	 * 
-	 * @throws IOException
+	 * @throws IOException Error occurred during execution...
 	 */
 	public void refreshBusinessPartners() throws IOException {
 		System.out.println("***BusinessPartnerUpdate started started***");

@@ -68,8 +68,9 @@ public class SettingsFileGeneration {
 	 *            The url for creasting the XML scaffold
 	 * @param updateInterval
 	 *            The update interval in seconds
-	 * @param folderLocation
-	 *            The folder location
+	 * @param urlImportExtension The extension of the import-url.
+	 * @param validationAdress The address for validation.
+	 * @param validationString The String for validation.
 	 */
 	public SettingsFileGeneration(URL url, Integer updateInterval,
 			String urlImportExtension, String validationAdress, String validationString) {
